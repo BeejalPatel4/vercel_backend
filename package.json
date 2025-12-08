@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "vercel-start":"node sevrer.js"
+    "vercel-start": "node sevrer.js"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +19,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.12.1",
     "multer": "^2.0.1",
-    "openai": "^5.11.0"
+    "openai": "^5.11.0",
+    "serverless-http": "^4.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
