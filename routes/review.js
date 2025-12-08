@@ -1,31 +1,5 @@
 
 
-
-
-// const express = require("express")
-// const { getReviews,
-//   getReview,
-//   addReview,
-//   editReview,
-//   deleteReview,
-//   upload,} = require("../Controller/review")
-
-
-// const router = express.Router()
-
-// // All review routes
-
-// rout  er.get("/",getReviews,)             // Get all reviews
-// router.get("/:id",getReview)           // Get review by ID
-// // router.post("/", upload.single("file"), addReview) // Add review with optional image
-// router.post("/", upload.single("image"), addReview);
-
-// router.put("/:id", editReview)          // Update review
-// router.delete("/:id", deleteReview)    // Delete review
-
-// module.exports = router
-
-
 const express = require("express");
 const router = express.Router();
 const multer = require("multer");
