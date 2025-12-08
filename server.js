@@ -1,4 +1,6 @@
 // import OpenAI from 'openai'
+const mongoose=require("mongoose")//that connect the databace in mongoDb
+
 const express=require("express")
 const app=express()
 const dotenv=require("dotenv").config()
@@ -8,7 +10,7 @@ const cors=require("cors");
 const reviewRoutes = require("./routes/review");
 // const bodyParser = require('body-parser');
 const OpenAI = require('openai');
-const { default: mongoose } = require("mongoose");
+// const { default: mongoose } = require("mongoose");
 
 const PORT=process.env.PORT 
 
